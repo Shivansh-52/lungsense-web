@@ -25,7 +25,7 @@ const Footer = () => {
           <div style={{ flex: '1 1 200px' }} id="download">
             <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>Get the App</h3>
             <p style={{ fontSize: '0.9rem', marginBottom: '1rem' }}>Download the latest APK for Android.</p>
-            <a href="/LungSenseAI-latest.apk" className="btn btn-primary" style={{ display: 'inline-flex', gap: '0.5rem', width: '100%' }}>
+            <a href="/LungSenseAI-latest.apk" download="LungSenseAI-latest.apk" className="btn btn-primary" style={{ display: 'inline-flex', gap: '0.5rem', width: '100%' }}>
               <Download size={18} /> Download APK
             </a>
           </div>

@@ -28,7 +28,7 @@ const Hero = () => {
           </p>
           
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-            <a href="#download" className="btn btn-primary" style={{ gap: '0.5rem' }}>
+            <a href="/LungSenseAI-latest.apk" download="LungSenseAI-latest.apk" className="btn btn-primary" style={{ gap: '0.5rem' }}>
               <DownloadCloud size={20} />
               Download APK
             </a>
